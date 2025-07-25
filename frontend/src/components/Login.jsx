@@ -39,6 +39,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
           localStorage.clear()
         }
       })()
+      
     }
   }, [navigate, onSubmit])
 
